@@ -1,0 +1,117 @@
+.career-details {
+    margin-top: 160px;
+}
+
+.career-name {
+    font-size: 26px;
+    font-weight: bold;
+    color: #000;
+}
+
+.career-company__link {
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+}
+
+.career-company-address,
+.career-total-candidate {
+    font-size: 14px;
+    color: gray;
+}
+
+.candidate-btn {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 32px;
+    color: #fff;
+}
+
+.candidate-btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.career-title-infor {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: 1px solid #00B9F2;
+}
+
+.career-title-infor span {
+    display: inline-block;
+    background: #00B9F2;
+    padding: 0 16px;
+}
+
+.career-title-item {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -16px;
+}
+
+.career-description {
+    font-size: 16px;
+    margin-top: -36px;
+}
+
+.career-more-infor-wrap {
+    padding: 16px;
+    margin-top: 32px !important;
+    border: 2px solid #00B9F2;
+    border-radius: 5px;
+}
+
+.career-more-infor {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px dashed #00B9F2;
+}
+
+.career-more-job {
+    margin-top: 32px;
+    border: 2px solid #00B9F2;
+    border-radius: 5px;
+}
+
+.career-more-job-title {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0;
+    text-align: center;
+    background: #00B9F2;
+    border-bottom: 1px solid #00B9F2;
+    color: #fff;
+}
+
+.career-more-job__link {
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.career-more-job__link:hover {
+    text-decoration: none;
+}
+
+.career-more-job-name,
+.career-more-job-company {
+    padding: 0 16px;
+    font-size: 16px;
+    line-height: 28px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow-y: hidden;
+    color: #000;
+}
+
+.career-more-job-company {
+    font-size: 14px;
+    color: gray;
+    line-height: 20px;
+}

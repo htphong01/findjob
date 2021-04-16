@@ -1,0 +1,306 @@
+
+/* Mobile & Tablet */
+
+@media (max-width: 1023px) {
+    
+}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 739px) {
+
+    .app-footer {
+        text-align: center;
+    }
+
+    .app_header {
+        height: 60px;
+        width: 100vw;
+    }
+
+    .footer-list.social-list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    /* .logo__link span {
+        padding-top: 6px;
+    } */
+
+    .logo__link img {
+        margin-top: 8px;
+        height: 120%;
+    }
+
+    .bar-icon {
+        display: block;
+    }
+
+    .header-search-wrap {
+        display: none;
+    }
+
+    .mobile-menu {
+        top: 60px;
+        height: 100vh;
+        left: 0;
+        margin: 0;
+        background: #017657;
+    }
+
+    .customer_name {
+        max-width: 100%;
+    }
+
+    .nav-item__link {
+        font-weight: bold;
+        padding: 8px 0;
+    }
+
+    .customer-more {
+        display: none !important;
+    }
+    
+    .carousel.carousel-list {
+        display: none;
+    }
+
+    .explore {
+        margin-top: 60px;
+        padding: 16px;
+    }
+
+    .why-title {
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    .why-details {
+        display: none;
+    }
+
+    .why-title-moblie-1 {
+        display: none;
+    }
+
+    .why-title-mobile {
+        display: block !important;
+        width: 100%;
+    }
+
+    .advertise-wrap {
+        margin: 40px 0;
+    }
+
+    .new-job-content {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .new-job-right {
+        display: none;
+    }
+
+    .advice-wrap {
+        padding-bottom: 32px;
+        margin-bottom: 32px;
+        border-bottom: 1px solid #555555;
+    }
+
+    .mobile-btn-wrap {
+        text-align: center;
+        margin-bottom: 60px;
+        display: none;
+    }
+
+    .new-job-right-advertisement {
+        display: none;
+    }
+
+    .user-infor {
+        margin-top: 80px;
+    }
+
+    .user-infor-details label {
+        width: 100%;
+    }
+
+    .user-infor-details {
+        display: block;
+    }
+
+    .changeNumber-main {
+        margin-top: 80px;
+    }
+
+    .changeNumber-right {
+        display: none;
+    }
+
+    .add-coin-form {
+        width: 100% !important;
+    }
+
+    .userAddJob-btn {
+        margin-bottom: 72px;
+    }
+
+    .userAddJob-form input[type="date"] {
+        width: 100%;
+    }
+
+    .show-cv-mobile {
+        display: none;
+    }
+
+    .search-form-mobile {
+        width: 90%;
+    }
+
+    .search-mobile-input {
+        font-size: 16px;
+        outline: none;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        padding-left: 8px;
+        height: 30px;
+    }
+    
+    .career-more-job {
+        display: none;
+    }
+
+    .career-details {
+        margin-top: 80px;
+    }
+
+    table, tr{
+        border: 1px solid #ddd;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    .signin-image {
+        display: none;
+    }
+
+    .signin-form {
+        margin-left: 0;
+    }
+
+    .main {
+        padding-top: 80px;
+    }
+
+    .form-title {
+        text-align: center;
+    }
+
+    .social-login {
+        text-align: center;
+    }
+
+    .social-login .socials {
+        justify-content: center;
+    }
+
+    ul.socials li a i {
+        margin: 0 16px;
+    }
+
+    .register-mobile {
+        display: block !important;
+        font-size: 16px;
+        text-decoration: none !important;
+    }
+
+    .signup-image {
+        display: none;
+    }
+
+    .signup-form {
+        margin-right: 0;
+    }
+
+    .signup-form input {
+        width: 100%;
+    }
+
+    input#agree-term {
+        width: 20px !important;
+        height: 20px;
+    }
+
+    .job-item-left {
+        display: none;
+    }
+
+    .col-sm-3.job-item-left {
+        padding-right: 15px;
+    }
+    
+    .col-sm-9.job-item-right {
+        padding-left: 15px;
+    }
+
+    .new-job-ordering {
+        display: none;
+    }
+
+    .nj-job-infor {
+        border-left: 1px solid #00B9F2;
+    }
+
+    .nj-employer-logo {
+        width: 50%;
+        max-height: 100%;
+    }
+
+    .new-job-name__link {
+        color: #f7941d;
+    }
+
+    button.btn.btn-success.candidate-btn {
+        margin-top: 12px;
+    }
+    
+    .show-cv-action {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .show-cv-action div {
+        margin-left: 0;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .show-on-mobile {
+        display: block;
+    }
+
+    .help-item {
+        border: 1px solid #00B9F2;
+    }
+}

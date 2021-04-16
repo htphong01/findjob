@@ -1,0 +1,55 @@
+.UserAddJob-title {
+    border-bottom: 1px solid #00B9F2;
+    margin-bottom: 16px !important;
+}
+
+.UserAddJob-title span {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px 16px;
+    background: #00B9F2;
+    color: #fff;
+}
+
+.userAddJob-form label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.userAddJob-form input,
+.userAddJob-form select {
+    font-size: 16px;
+    height: 100% !important;
+}
+
+.userAddJob-form textarea {
+    font-size: 16px;
+}
+
+.userAddJob-btn button {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.public-employer-logo {
+    width: 30%;
+}
+
+.public-candidate-avatar {
+    text-align: center;
+}
+
+.public-candidate-avatar-img {
+    width: 100%;
+}
+
+.public-candidate-label {
+    font-weight: 500;
+    text-align: left;
+}
+
+.public-candidate-cv {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}

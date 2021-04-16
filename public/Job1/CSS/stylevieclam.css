@@ -1,0 +1,31 @@
+body {
+}
+.body-home {
+    background-color: #f5f5ef;
+    width: 70%;
+    margin-left: 170px;
+    margin-bottom: 20px;
+}
+.block-title h1 {
+    font-size: 28px;
+    text-align: center;
+}
+.col-xs-3 {
+    margin-left: 40px;
+}
+.col-xs-2 a {
+    color: black;
+    margin-left: 40px;
+}
+.col-xs-6 {
+    margin-left: 40px;
+}
+.row {
+    background-color: ;
+}
+.row ul {
+    margin-left: 40px;
+}
+table, th, td {
+  border: 1px solid black;
+}

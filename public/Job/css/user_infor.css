@@ -1,0 +1,139 @@
+.user-infor {
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.user-infor-wrap-bottom {
+    margin-top: 40px;
+}
+
+.user-infor-title {
+    border-bottom: 1px solid #00B9F2;
+    margin: 16px 0;
+}
+
+.user-infor-title span {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px 16px;
+    background: #00B9F2;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.user-infor-email,
+.user-infor-number,
+.user-infor-password {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.user-infor-number a,
+.user-infor-password a{
+    margin-left: 16px;
+}
+
+.user-infor-img {
+    width: 100%;
+}
+
+.user-infor-details {
+    font-size: 16px;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.user-infor-details label {
+    width: 25%;
+}
+
+.user-infor-details input,
+.user-infor-details select {
+    width: 100%;
+}
+
+.user-infor-btn button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 32px;
+}
+
+.user-infor-right {
+    margin-top: 20px;
+    border: 2px #00B9F2 solid;
+    border-radius: 5px;
+}
+
+.user-infor-right-title {
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background: #00B9F2;
+    color: #fff;
+}
+
+.user-infor-right-header {
+    font-size: 16px;
+    font-weight: bold;
+    color: #00B9F2;
+    padding: 8px 0 8px 16px;
+}
+
+.user-infor-right-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.user-infor-right-link {
+    font-size: 16px;
+    color: #000;
+    padding: 8px 0 8px 32px;
+    display: block;
+}
+
+.user-infor-right-link i {
+    font-size: 20px;
+    margin-right: 8px;
+    color: #00B9F2;
+}
+
+.user-infor-right-link:hover {
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    color: #00B9F2;
+}
+
+.user-infor-logout {
+    border-top: 1px solid #ddd;
+}
+
+.user-infor-logout-link {
+    padding: 8px 0;
+    display: block;
+    font-size: 16px;
+    color: gray;
+    padding-left: 32px;
+}
+
+.user-infor-logout-link:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.mobile-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    display: none;
+}
+
+.my-article-name {
+    color: #000;
+}
+
+.my-article-name:hover {
+    text-decoration: none;
+    color: #000;
+}

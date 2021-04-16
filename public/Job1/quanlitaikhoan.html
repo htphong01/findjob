@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tai khoan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./CSS/styletk.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/js/bootstrap.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="col-xs-8 primary form26">
+            <div class="inner-10">
+                <div class="box-content">
+                    <header class="block-title">
+                        <h3 class="title font-roboto text-primary">
+                            <span class="text">Thông tin tài khoản</span>
+                            <span class="line"></span>
+                        </h3>
+                    </header>
+                    <div style="border: 2px solid #f28006; padding: 10px;padding-bottom: 0" class="m-t-20 font14">
+                        <p>Tài khoản của bạn được đăng ký bằng mạng xã hội (Facebook/Google) nên chưa có mật khẩu.</p>
+                        <p>Bạn có thể <a href="javascript:void(0);" onclick="sendMailRequestCreatePass()">
+                        	<strong class="text-primary">tạo mật khẩu</strong></a> nếu muốn dùng email để đăng nhập theo cách thông thường.</p>
+                    </div>
+                    <div class="box_info font14 mt20">
+                    	<div class="list-items mb_15 p10 border-all-black-1">
+                    		<h3 class="bolder">Tài khoản của bạn không được duyệt do:</h3>
+                    		<ul class="no-style">
+                    			<li><i>- Số điện thoại không chính xác.</i></li>
+                    			<li><i>- Thiếu thông tin ngày, tháng, năm sinh.</i></li>
+                    		</ul>
+                                <p class="m-b-0">Bạn vui lòng chỉnh sửa thông tin theo đúng quy định.</p>
+                                <!--<p class="m-b-0">Nếu bạn gặp khó khăn trong quá trình cập nhật thông tin hãy gọi tới hotline dành cho Người tìm việc <b>Miền Bắc: (024) 7309 2828</b> và <b>miền Nam: (028) 7109 2828</b> để được trợ giúp.</p>-->
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="list-items mb_15">
+                            <span >Email:</span> <span class="bolder">huongffd@gmail.com</span>
+                            <a href="https://www.timviecnhanh.com/nguoi-tim-viec/cap-nhat-thong-tin-email" class="text-primary"> <span class="icon-edit-blue"></span>Đổi Email</a>
+                        </div>
+                        <div class="list-items mb_15">
+                            <span>Số điện thoại:</span> <span  class="bolder">0398545408</span>
+                            <a href="https://www.timviecnhanh.com/nguoi-tim-viec/doi-so-dien-thoai" class="text-primary"> <span class="icon-edit-blue"></span> Đổi Số điện thoại</a>
+                        </div>
+                        <div class="list-items mb_15">
+                        	<span >Mật khẩu:</span> <span class="text-red">Chưa cập nhật</span>
+                        	<a href="javascript:void(0);" onclick="sendMailRequestCreatePass()" class="text-primary"><span class="icon-edit-blue"></span>  Tạo mật khẩu</a>
+                        </div>
+                    </div>
+                    <header class="block-title">
+                        <h3 class="title font-roboto text-primary">
+                            <span class="text">Thông tin cá nhân</span>
+                            <span class="line"></span>
+                        </h3>
+                    </header>
+                    <form action="" method="POST" enctype="multipart/form-data" class="form-employers-register create-pro-form">
+                    	<div class="container_fluid">
+                    		<div class="row" style="margin-left: 100px;">
+                    			<div class="col-md-3" style="background: white;">
+                    				<div class="avatar ">
+                    					<img src="./Images/default.gif" style="float: left; margin-left: 20px;  margin-right: 20px; margin-top: 20px;">
+                    					<input type="file" id="avatar-file" name="logo" style="display: none;">
+                    				</div>
+                    				<div class="chonavatar">
+                    					<a onclick="$('#avatar-file').click();" id="choose-button" class="upload-avatar modelbox btn-grey btn btn-big w117">
+                    						<span class="text font12" style="margin-left: 15px;"><i class="far fa-file-image"></i>  Chọn avatar</span>
+                    					</a>
+                    					<script type="text/javascript">
+                    						$(document).ready(function() {
+                    							$('#avatar-file').change(function() {
+                    								$('#choose-button').html('<span class="icon icon-sm icon-image"></span><span class="text">Đã chọn</span>');
+                    							});
+                    						});
+                    					</script>
+                    				</div>
+                    			</div>
+                    			<div class="col-md-7" style="background: white;margin-bottom: 20px; line-height: 25px; float: left;">
+                    				<div class="info-user2">
+                    					<input type="hidden" id="email" name="email" value="huongffd@gmail.com">
+                                        <input type="hidden" id="mobile" name="mobile" value="0398545408">
+                                    <div class="group-form name">
+                                    <div class="label">Họ tên <span class="icon-hoa-thi"></span></div>
+                                    <input type="text" id="name" name="name" value="" /></div>
+                                 <div class="group-form new_password">
+                                    <div class="label">Mật khẩu</div>
+                                    <input type="password" id="new_password" name="new_password" >
+                                </div>
+                                <div class="group-form birthday">
+                                    <div class="label">Ngày sinh <span class="icon-hoa-thi"></span></div>
+                                    <div class="block-date-choose">
+                                        <select id="day" name="day" class="ngay select-style" data-disS="1">
+	                                        <option selected="selected" value="0">Ngày</option>
+	                                        <option value="1">1</option>
+	                                        <option value="2">2</option>
+	                                        <option value="3">3</option>
+	                                        <option value="4">4</option>
+	                                        <option value="5">5</option>
+	                                        <option value="6">6</option>
+	                                        <option value="7">7</option>
+	                                        <option value="8">8</option>
+	                                        <option value="9">9</option>
+	                                        <option value="10">10</option>
+	                                        <option value="11">11</option>
+	                                        <option value="12">12</option>
+	                                        <option value="13">13</option>
+	                                        <option value="14">14</option>
+	                                        <option value="15">15</option>
+	                                        <option value="16">16</option>
+	                                        <option value="17">17</option>
+	                                        <option value="18">18</option>
+	                                        <option value="19">19</option>
+	                                        <option value="20">20</option>
+	                                        <option value="21">21</option>
+	                                        <option value="22">22</option>
+	                                        <option value="23">23</option>
+	                                        <option value="24">24</option>
+	                                        <option value="25">25</option>
+	                                        <option value="26">26</option>
+	                                        <option value="27">27</option>
+	                                        <option value="28">28</option>
+	                                        <option value="29">29</option>
+	                                        <option value="30">30</option>
+	                                        <option value="31">31</option>
+	                                    </select>
+	                                    <select id="month" name="month" class="thang select-style" data-disS="1">
+	                                    	<option selected="selected" value="0">Tháng</option>
+	                                    	<option value="1">1</option>
+	                                    	<option value="2">2</option>
+	                                    	<option value="3">3</option>
+	                                    	<option value="4">4</option>
+	                                    	<option value="5">5</option>
+	                                    	<option value="6">6</option>
+	                                    	<option value="7">7</option>
+	                                    	<option value="8">8</option>
+	                                    	<option value="9">9</option>
+	                                    	<option value="10">10</option>
+	                                    	<option value="11">11</option>
+	                                    	<option value="12">12</option>
+	                                    </select>
+	                                    <select id="year" name="year" class="nam select-style">
+	                                    	<option selected="selected" value="0">Năm</option>
+	                                    	<option value="2020">2020</option>
+	                                    	<option value="2019">2019</option>
+	                                    	<option value="2018">2018</option>
+	                                    	<option value="2017">2017</option>
+	                                    	<option value="2016">2016</option>
+	                                    	<option value="2015">2015</option>
+	                                    	<option value="2014">2014</option>
+	                                    	<option value="2013">2013</option>
+	                                    	<option value="2012">2012</option>
+	                                    	<option value="2011">2011</option>
+	                                    	<option value="2010">2010</option>
+	                                    	<option value="2009">2009</option>
+	                                    	<option value="2008">2008</option>
+	                                    	<option value="2007">2007</option>
+	                                    	<option value="2006">2006</option>
+	                                    	<option value="2005">2005</option>
+	                                    	<option value="2004">2004</option>
+	                                    	<option value="2003">2003</option>
+	                                    	<option value="2002">2002</option>
+	                                    	<option value="2001">2001</option>
+	                                    	<option value="2000">2000</option>
+	                                    	<option value="1999">1999</option>
+	                                    	<option value="1998">1998</option>
+	                                    	<option value="1997">1997</option>
+	                                    	<option value="1996">1996</option>
+	                                    	<option value="1995">1995</option>
+	                                    	<option value="1994">1994</option>
+	                                    	<option value="1993">1993</option>
+	                                    	<option value="1992">1992</option>
+	                                    	<option value="1991">1991</option>
+	                                    	<option value="1990">1990</option>
+	                                    	<option value="1989">1989</option>
+	                                    	<option value="1988">1988</option>
+	                                    	<option value="1987">1987</option>
+	                                    	<option value="1986">1986</option>
+	                                        <option value="1985">1985</option>
+	                                        <option value="1984">1984</option>
+	                                        <option value="1983">1983</option>
+	                                        <option value="1981">1981</option>
+	                                        <option value="1980">1980</option>
+	                                        <option value="1979">1979</option>
+	                                        <option value="1978">1978</option>
+	                                        <option value="1977">1977</option>
+	                                        <option value="1976">1976</option>
+	                                        <option value="1975">1975</option>
+	                                        <option value="1974">1974</option>
+	                                        <option value="1973">1973</option>
+	                                        <option value="1972">1972</option>
+	                                        <option value="1971">1971</option>
+	                                        <option value="1970">1970</option>
+	                                        <option value="1969">1969</option>
+	                                        <option value="1968">1968</option>
+	                                        <option value="1967">1967</option>
+	                                        <option value="1966">1966</option>
+	                                        <option value="1965">1965</option>
+	                                        <option value="1964">1964</option>
+	                                        <option value="1963">1963</option>
+	                                        <option value="1962">1962</option>
+	                                        <option value="1961">1961</option>
+	                                        <option value="1960">1960</option>
+	                                        <option value="1959">1959</option>
+	                                        <option value="1958">1958</option>
+	                                        <option value="1957">1957</option>
+	                                        <option value="1956">1956</option>
+	                                        <option value="1955">1955</option>
+	                                    </select>
+	                                    <div class="clearfix"></div>
+	                                </div>
+                                </div>
+                                <div class="group-form sex">
+                                    <div class="label">Giới tính <span class="icon-hoa-thi"></span></div>
+                                    <select id="gender" name="gender" class="select-style no-style-button w250">
+                                    	<option selected="selected" value="">Chọn giới tính</option>
+                                    	<option value="Y">Nam</option>
+                                    	<option value="N">Nữ</option>
+                                    </select>                                        
+                                    </div>
+                                <div class="group-form sex" style="position: relative">
+                                    <div class="label" style="line-height: 38px;">Hôn nhân <span class="icon-hoa-thi"></span></div>
+                                    <select id="married_status" name="married_status" class="select-style no-style-button w250">
+                                    	<option selected="selected" value="">Chọn tình trạng hôn nhân</option>
+                                    	<option value="N">Độc thân</option>
+                                    	<option value="Y">Đã có gia đình</option>
+                                    </select>                                        
+                                    </div>
+                                <div class="group-form province">
+                                    <div class="label">Tỉnh/Thành phố <span class="icon-hoa-thi"></span></div>
+                                    <select id="province" name="province" class="select-style no-style-button w250">
+                                    	<option value=""> </option>
+                                    	<option value="1">Hồ Chí Minh</option>
+                                    	<option value="2">Hà Nội</option>
+                                    	<option value="3">An Giang</option>
+                                    	<option value="4">Bạc Liêu</option>
+                                    	<option value="5">Bà Rịa-Vũng Tàu</option>
+                                    	<option value="6">Bắc Cạn</option>
+                                    	<option value="7">Bắc Giang</option>
+                                    	<option value="8">Bắc Ninh</option>
+                                    	<option value="9">Bến Tre</option>
+                                    	<option value="10">Bình Dương</option>
+                                    	<option value="11">Bình Định</option>
+                                    	<option value="12">Bình Phước</option>
+                                    	<option value="13">Bình Thuận</option>
+                                    	<option value="14">Cao Bằng</option>
+                                    	<option value="15">Cà Mau</option>
+                                    	<option value="16">Cần Thơ</option>
+                                    	<option value="17">Đà Nẵng</option>
+                                    	<option value="18">Đắk Lắk</option>
+                                    	<option value="19">Đắk Nông</option>
+                                    	<option value="20">Điện Biên</option>
+                                    	<option value="21">Đồng Nai</option>
+                                    	<option value="22">Đồng Tháp</option>
+                                    	<option value="23">Gia Lai</option>
+                                    	<option value="24">Hà Giang</option>
+                                    	<option value="25">Hà Nam</option>
+                                    	<option value="27">Hà Tĩnh</option>
+                                    	<option value="28">Hải Dương</option>
+                                    	<option value="29">Hải Phòng</option>
+                                    	<option value="30">Hậu Giang</option>
+                                    	<option value="31">Hòa Bình</option>
+                                    	<option value="32">Hưng Yên</option>
+                                    	<option value="33">Khánh Hòa</option>
+                                    	<option value="34">Kiên Giang</option>
+                                    	<option value="35">Kon Tum</option>
+                                    	<option value="36">Lai Châu</option>
+                                    	<option value="37">Lạng Sơn</option>
+                                        <option value="38">Lào Cai</option>
+                                        <option value="39">Lâm Đồng</option>
+                                        <option value="40">Long An</option>
+                                        <option value="41">Nam Định</option>
+                                        <option value="42">Nghệ An</option>
+                                        <option value="43">Ninh Bình</option>
+                                        <option value="44">Ninh Thuận</option>
+                                        <option value="45">Phú Thọ</option>
+                                        <option value="46">Phú Yên</option>
+                                        <option value="47">Quảng Bình</option>
+                                        <option value="48">Quảng Nam</option>
+                                        <option value="49">Quảng Ngãi</option>
+                                        <option value="50">Quảng Ninh</option>
+                                        <option value="51">Quảng Trị</option>
+                                        <option value="52">Sóc Trăng</option>
+                                        <option value="53">Sơn La</option>
+                                        <option value="54">Tây Ninh</option>
+                                        <option value="55">Thái Bình</option>
+                                        <option value="56">Thái Nguyên</option>
+                                        <option value="57">Thanh Hóa</option>
+                                        <option value="58">Thừa Thiên-Huế</option>
+                                        <option value="59">Tiền Giang</option>
+                                        <option value="60">Trà Vinh</option>
+                                        <option value="61">Tuyên Quang</option>
+                                        <option value="62">Vĩnh Long</option>
+                                        <option value="63">Vĩnh Phúc</option>
+                                        <option value="64">Yên Bái</option>
+                                        <option value="65">Toàn quốc</option>
+                                        <option value="66">Nước ngoài</option>
+                                    </select>
+                                </div>
+                                <div class="group-form address">
+                                    <div class="label">Chỗ ở hiện tại <span class="icon-hoa-thi"></span></div>
+                                    <input type="text" id="address" name="address" value=" " >
+                                    </div>
+                                <div class="group-form">
+                                    <div class="label"></div>
+                                    <button type="submit" id="update-profile-seeker" class="btn btn-big btn-danger w140 relative">
+                                        <i class="icon_new icon-xs icon-save-new m-r-5" style="top:3px"></i>
+                                        Cập nhật
+                                        <i class="icon-loading-white invisible"></i>
+                                    </button>
+                                </div>
+                            </div>
+                    			</div>
+                    		</div>
+                    	</div>
+                        <div class="col-xs-6 offset20 push-left-10 w470">
+                            
+                        </div>
+                        <input type="hidden" name="wcQ7tG1wqPjitfg" value="99993b49fa9f52bca02f4fba0f87cf94">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+ <script type="text/javascript">
+    $(document).ready(function() {
+//        chooseDate('.block-date-choose');
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        var showpopup = true;
+        $('form.form-employers-register').data('serialize',$('form.form-employers-register').serialize());
+        $("form.form-employers-register").on("submit", function(){
+            $('.btn-big').attr('style','padding: 0 16px;!important');
+            displayIconWhiteLoading('update-profile-seeker');
+            showpopup = false;
+        })
+        $(window).bind('beforeunload', function(e){
+            if($('form.form-employers-register').serialize() != $('form.form-employers-register').data('serialize') && showpopup == true){
+                return 'Changes you made may not be saved.';
+            }else {
+                e = null;
+            }
+        });
+    });
+    function sendMailRequestCreatePass() {
+                $.ajax({
+            url: 'https://www.timviecnhanh.com/nguoi-tim-viec/tai-khoan/yeu-cau-tao-mat-khau?id=80cde6106817a4b7425aa5150d658619&token=087a884e082701f1cd2ac4ff70290890',
+            type: 'post',
+            dataType: 'json',
+            success: function (data) {
+                if(data.status == '200'){
+                    location.href = 'https://www.timviecnhanh.com/nguoi-tim-viec/tai-khoan/yeu-cau-tao-mat-khau';
+                }else{
+                    alert(data.message);
+                }
+            }
+        });
+    }
+</script>
+</body>
+</html>

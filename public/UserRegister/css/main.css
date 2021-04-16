@@ -1,0 +1,221 @@
+.main {
+	padding-top: 160px;
+	padding-bottom: 40px;
+}
+
+.signin-content {
+	display: flex;
+	justify-content: center;
+}
+
+.signin-image {
+	margin-right: 50px;
+}
+
+.signin-image img {
+	width: 100%
+}
+
+.signin-image a {
+	font-size: 16px
+}
+
+.signin-form {
+	margin-left: 50px;
+}
+
+.signin-form .form-title {
+	font-size: 40px;
+	font-weight: bold;
+	padding-bottom: 16px
+}
+
+.signin-form .form-group {
+	position: relative;
+	margin-bottom: 16px;
+}
+
+.signin-form label {
+	position: absolute;
+    left: 0;
+    top: 5%;
+    color: #222;
+    font-size: 20px
+}
+
+.signin-form input {
+	font-size: 18px;
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 6px 30px;
+    font-family: Poppins;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.check-term {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+input#remember-me {
+	width: 13px !important;
+	height: 13px;
+	padding-right: 8px
+}
+
+label.label-agree-term {
+	position: unset !important;
+	margin-left: 8px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+span.social-label {
+	font-size: 16px
+}
+
+ul.socials {
+	padding-top: 8px;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	padding-left: 0;
+}
+
+ul.socials li a {
+	display: block;
+}
+
+ul.socials li a i {
+	font-size: 40px;
+	margin-right: 30px;
+}
+
+a.signup-image-link {
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+}
+
+
+.signup-content {
+	display: flex;
+	justify-content: center;
+}
+
+.signup-image {
+	margin-left: 50px;
+}
+
+.signup-image img {
+	width: 100%
+}
+
+.signup-image a {
+	font-size: 16px
+}
+
+.signup-form {
+	margin-right: 50px;
+}
+
+.signup-form .form-title {
+	font-size: 40px;
+	font-weight: bold;
+	padding-bottom: 16px
+}
+
+.signup-form .form-group {
+	position: relative;
+	margin-bottom: 16px;
+}
+
+.signup-form label {
+	position: absolute;
+    left: 0;
+    top: 5%;
+    color: #222;
+    font-size: 20px
+}
+
+.signup-form input {
+	font-size: 18px;
+    width: 80%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 6px 30px;
+    font-family: Poppins;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.signup-form select {
+	font-size: 18px;
+    width: 80%;
+    height: 100% !important;
+    font-family: Poppins;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.signup-form .term-group {
+	display: flex;
+	width: 80%;
+}
+
+.check-term {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+input#agree-term {
+	width: 13px !important;
+	height: 13px;
+	padding-right: 8px;
+	transform: translateY(40%);
+}
+
+label.label-agree-term {
+	position: unset !important;
+	margin-left: 8px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+span.social-label {
+	font-size: 16px
+}
+
+ul.socials {
+	padding-top: 8px;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	padding-left: 0;
+}
+
+ul.socials li a {
+	display: block;
+}
+
+ul.socials li a i {
+	font-size: 40px;
+	margin: 0 24px 0 8px;
+}
+
+a.signup-image-link {
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+}
+
+.term-group label.label-agree-term {
+	font-size: 14px;
+	widows: 80%
+}

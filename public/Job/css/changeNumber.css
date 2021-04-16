@@ -1,0 +1,45 @@
+.changeNumber-main {
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+
+.changeNumber-title {
+    border-bottom: 1px solid #00B9F2;
+    margin-bottom: 32px;
+}
+
+.changeNumber-title span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background: #00B9F2;
+    padding: 2px 16px;
+}
+
+.changeNumber-old {
+    font-size: 16px;
+}
+
+.changeNumber-new {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.changeNumber-input {
+    font-size: 16px;
+    height: 40px;
+    width: 100%;
+}
+
+.changeNumber-btn {
+    margin-top: 20px;
+    padding: 8px 32px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.changeNumber-right {
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 2px solid #00B9F2;
+}

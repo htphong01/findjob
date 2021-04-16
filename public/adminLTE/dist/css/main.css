@@ -1,0 +1,8 @@
+a.dropdown-item:hover {
+    background: none;
+    color: #fff;
+}
+
+.dropdown-content {
+    display: none;
+}

@@ -1,0 +1,33 @@
+.suitable_category_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.suitable_job-item {
+    font-size: 16px;
+    background: #c8e9f3;
+    padding: 8px 16px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 8px 16px 8px 0;
+}
+
+.suitable_category-delete {
+    margin-left: 4px;
+}
+
+.suitable_category-change {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-top: 16px;
+}
+
+.suitable_category_select {
+    font-size: 16px;
+    width: 100%;
+    height: 30px;
+    margin: 8px 0px;
+}
