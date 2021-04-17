@@ -5,6 +5,6 @@ If you like, please give me a star.</br>
 Thanks you!
 
 -------------
-Ho Thanh Phong
-Vietnam - Korea University of Information and Communication Technology - Danang University
-Contact: <a href="fb.com/htphong01">Thanh Phong</a>
+Ho Thanh Phong</br>
+Vietnam - Korea University of Information and Communication Technology - Danang University</br>
+Contact: <a href="https://facebook.com/htphong01">Facebook</a>
