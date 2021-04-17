@@ -7,4 +7,4 @@ Thanks you!
 -------------
 Ho Thanh Phong</br>
 Vietnam - Korea University of Information and Communication Technology - Danang University</br>
-Contact: <a href="https://facebook.com/htphong01">Facebook</a>
+Contact: <a href="https://facebook.com/htphong01" target="_blank">Facebook</a>
